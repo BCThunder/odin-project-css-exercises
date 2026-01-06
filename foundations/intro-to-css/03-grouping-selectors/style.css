@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+/*
+TODO
+- **The first element**: a black background and white text
+- **The second element**: a yellow background
+- **Both elements**: a font size of 28px and a list of fonts containing 
+  `Helvetica` and `Times New Roman`, with `sans-serif` as a fallback
+*/
+
+.left,
+.right {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
+
+.left {
+    background-color: RGB(0, 0, 0);
+    color: RGB(255, 255, 255);
+}
+
+.right {
+    background-color: #ffff00;
+}
